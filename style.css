@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&family=Teko:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1,
+header nav li,
+section h2,
+section h3,
+section button{
+    font-family: 'Teko', sans-serif;
+    font-size: bold;
+}
+
+section button{
+    font-size: 22px;
+    background-color: rgb(0, 24, 59);
+    color: white;
+    cursor: pointer;
+
+}
+
+section button:hover{
+    background-color: rgb(0, 56, 141);
+}
+
+section p{
+    font-family: 'Overpass', sans-serif;
+}
+
+header {
+    padding: 16px 0px;
+    background-color: rgb(0, 24, 59);
+    color: white;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section img{
+    height: 400px;
+    margin-right: 16px;
+}
+
+section {
+    padding: 24px 0;
+    font-size: 20px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 16px;
+}
+
+#filmes h3 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.filmes{
+    padding: 42px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 100%;
+}
+
+.filmes img{
+    width: 100%;
+}
+
+.filmes header,
+.filmes p{
+    text-align: center;
+}
+
+form textarea{
+    height: 320px;
+    resize: none;
+
+}
+
+section textarea,
+section input,
+section button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+section input{
+    border: solid rgb(0, 24, 59) 2px;
+
+}
+
+section textarea{
+    border: solid rgb(0, 24, 59) 2px;
+}
+
+.contact-methods img{
+    height: 42px;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.contact-methods h3 {
+    margin: 24px 0;
+    text-align: center;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    padding: 42px 0;
+    background-color: rgb(0, 24, 59);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
